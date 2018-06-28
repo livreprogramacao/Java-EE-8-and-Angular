@@ -26,7 +26,7 @@
         <dependency>
             <groupId>org.jboss.weld.se</groupId>
             <artifactId>weld-se-core</artifactId>
-            <version>3.0.0.Final</version>
+            <version>3.0.4.Final</version>
         </dependency>
     </dependencies>
 </project>
