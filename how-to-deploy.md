@@ -32,6 +32,10 @@ cd /home/user/Downloads/Java-EE-8-and-Angular/Chapter07/putting-together-ims/ims
 sh buildAndRun.sh
 
 we should now have Docker containers started locally with port bindings, shown as the following:
+
+```
 docker ps --format "{{.Image}}\t{{.Names}}\t{{.Ports}}"
 ```
 
+
+sudo /etc/init.d/apache2 stop
