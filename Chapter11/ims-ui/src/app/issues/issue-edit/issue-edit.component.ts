@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 
-import { forkJoin } from "rxjs/observable/forkJoin";
+import { forkJoin } from 'rxjs';
 import { FormGroup, FormBuilder, Validators, NgForm } from '@angular/forms';
 
 import { IssuesService } from '../../shared/issues.service';

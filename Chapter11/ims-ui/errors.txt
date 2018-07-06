@@ -1,0 +1,21 @@
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+Date: 2018-07-06T13:14:15.815Z
+Hash: 235066a6d7ba31967866
+Time: 13868ms
+chunk {main} main.js, main.js.map (main) 84.3 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 226 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 331 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.73 MB [initial] [rendered]
+
+ERROR in ./node_modules/eventsource/lib/eventsource.js
+Module not found: Error: Can't resolve 'http' in '/home/user/Downloads/Java-EE-8-and-Angular/Chapter11/ims-ui/node_modules/eventsource/lib'
+
+ERROR in ./node_modules/eventsource/lib/eventsource.js
+Module not found: 
+Error: Can't resolve 'https' in '/home/user/Downloads/Java-EE-8-and-Angular/Chapter11/ims-ui/node_modules/eventsource/lib'
+
+cd /home/user/Downloads/Java-EE-8-and-Angular/Chapter11/ims-ui
+yarn add eventsource
+

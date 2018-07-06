@@ -4,8 +4,8 @@ import { User } from '../domain/user';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { Credential } from '../domain/credential';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs/Observable';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { Observable } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import { Router } from '@angular/router';
 
 @Injectable()
